@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Hello, world!</h1>
+    {% if posts %}
+
+    <p>{{posts.name}}</p>
+    <h3>{{posts.price}}</h3>
+    <h3>{{posts.rank}}</h3>
+
+    <figure class="figure">
+        <img src="{{posts.image}}" width = "300" height = "300" class="figure-img img-fluid rounded" alt="...">
+   </figure>
+   {% endif %}
+
+{% endblock %}
+  
