@@ -3,6 +3,10 @@
 # Crypto-App-django
 Build a real time crypto app in Django with the use of Celery, Redis, Django Channels, Python requests module. 
 
+In this App people easily watch cryptocurrency price & other details as well. 
+
+In this project I get api from coingecko.com
+
 ---
 ## Main requirements for App
 * Django
